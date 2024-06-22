@@ -40,8 +40,6 @@ img{
 
     img {
         border-radius: 50%;
-        width: 11em;  
-        height: 11em;
     }
 
 }
@@ -49,12 +47,9 @@ img{
 @media screen and (min-width: 992px){
 
     img {
-        width: 35vw;
-        height: 35vh;
         border-radius: 0; 
     }
 
-/* Cada tercera figura ocupa dos columnas */
     figure:nth-child(3n) {
         grid-column: span 2;
     }
